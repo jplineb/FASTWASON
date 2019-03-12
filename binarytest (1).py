@@ -41,16 +41,3 @@ for z in FASTWATSON8_test_img_loc:
                             'img_name': img_name}, ignore_index = True)
     ctr = ctr + 1
 results.to_csv('./test_results.csv')
-    
-
-#
-## Pretty Table Output #
-#
-#Ptty_Tble = PrettyTable()
-#
-#if Class_Tested != 'null':
-#  Ptty_Tble.field_names = ["True Image Class" , "Predicted Image Class", "Score", "Image Name"]
-#else:
-#  Ptty_Tble.field_names = ["Predicted Image Class", "Score", "Image Name"]
-#  
-#print(Ptty_Tble)
