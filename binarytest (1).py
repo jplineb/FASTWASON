@@ -31,7 +31,7 @@ FASTWATSON8_test_img_loc = FASTWATSON8_test_img_loc_crap + FASTWATSON8_test_img_
 amount_imgs = len(FASTWATSON8_test_img_loc) # check step
 
 # Visual Recognition Test #
-visual_recognition = VisualRecognitionV3('2018-03-19', iam_apikey='r-XIW0Yh8iToCtuXmr2de9MEacfsBy8RpdEvABecGoW8')
+visual_recognition = VisualRecognitionV3('2018-03-19', iam_apikey='apikey')
 
 outputs = []
 results = pd.DataFrame([], columns = ['actual_class', 'predicted_class', 'score', 'img_name'])
